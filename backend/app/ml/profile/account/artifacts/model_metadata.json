@@ -1,0 +1,25 @@
+{
+    "model_name": "RandomForestClassifier",
+    "target_column": "fake",
+    "class_mapping": {
+        "0": "genuine",
+        "1": "fake"
+    },
+    "feature_columns": [
+        "profile pic",
+        "nums/length username",
+        "fullname words",
+        "nums/length fullname",
+        "name==username",
+        "description length",
+        "external URL",
+        "private",
+        "#posts",
+        "#followers",
+        "#follows"
+    ],
+    "training_rows": 576,
+    "validation_rows": 116,
+    "random_state": 42,
+    "validation_split": 0.2
+}

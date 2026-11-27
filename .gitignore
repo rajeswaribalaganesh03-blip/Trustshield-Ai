@@ -10,3 +10,12 @@ datasets/raw/
 models/
 *.pth
 *.pkl
+# Datasets - do not push
+/datasets/
+
+# ML model binaries
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
